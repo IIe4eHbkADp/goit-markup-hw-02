@@ -1,0 +1,56 @@
+/* вторичный цвет текста  #212121  */
+/* основной цвет текста #757575 */
+/* вторичный цвет страници #F5F4FA */
+/* Акцент #2196F3 */
+/*Основной цвет страници Белый #FFFFFF  */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --akcent-text-color: #2196f3;
+}
+
+.page {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип */
+
+.logo-link {
+  color: var(--title-text-color);
+}
+
+.logo {
+  color: var(--akcent-text-color);
+}
+
+/* Навигация */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:focus,
+.link:hover {
+  color: var(--akcent-text-color);
+}
+
+/* Контакты */
+
+.contact .contact-link {
+  color: var(--primary-text-color);
+}
+
+.contact .contact-link:focus,
+.contact-link:hover {
+  color: var(--akcent-text-color);
+}
+
+.logo-footer {
+  color: #ffffff;
+}
