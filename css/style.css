@@ -8,10 +8,11 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --akcent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
 .page {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -51,6 +52,35 @@
   color: var(--akcent-text-color);
 }
 
+/* Hero */
+
+.hero-title {
+  color: var(--title-text-color);
+}
+/* section color */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Кнопка */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  font-size: 16px;
+  padding: 10px 32px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--akcent-text-color);
+}
+.button:focus,
+.button:hover {
+  color: var(--title-text-color);
+}
 .logo-footer {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
