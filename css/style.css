@@ -170,3 +170,15 @@ h2 {
 .footer-contacts .footer-item {
   color: var(--main-text-color);
 }
+
+/* Portfolio */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.portfolio-item {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--main-text-color);
+}
