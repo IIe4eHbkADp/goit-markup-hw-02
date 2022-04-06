@@ -1,86 +1,182 @@
-/* вторичный цвет текста  #212121  */
-/* основной цвет текста #757575 */
-/* вторичный цвет страници #F5F4FA */
-/* Акцент #2196F3 */
-/*Основной цвет страници Белый #FFFFFF  */
-
 :root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
   --akcent-text-color: #2196f3;
-  --primary-white-color: #ffffff;
+  --white-color: #ffffff;
 }
 
-.page {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--main-text-color);
+  background-color: var(--white-color);
+}
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  /* text-align: center; */
+  color: var(--secondary-text-color);
 }
 
-.list {
-  list-style: none;
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Логотип */
+/* Header */
 
-.logo-link {
-  color: var(--title-text-color);
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
+.header-navigation {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Logo+Navigation */
+
+.header-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--akcent-text-color);
+}
 .logo {
+  color: #000000;
+}
+.header-list {
+  /* display: flex; */
+}
+.header-list .header-link {
+  color: var(--secondary-text-color);
+}
+.header-list.header-link:focus,
+.header-link:hover {
   color: var(--akcent-text-color);
 }
 
-/* Навигация */
-
-.site-nav .link {
-  color: var(--title-text-color);
+/* Contacts */
+.header-contacts {
+  /* display: flex; */
 }
 
-.site-nav .link:focus,
-.link:hover {
-  color: var(--akcent-text-color);
+.header-contacts .contacts-item {
+  color: var(--main-text-color);
 }
-
-/* Контакты */
-
-.contact .contact-link {
-  color: var(--primary-text-color);
-}
-
-.contact .contact-link:focus,
-.contact-link:hover {
+.header-contacts.contacts-item:focus,
+.contacts-item:hover {
   color: var(--akcent-text-color);
 }
 
 /* Hero */
 
+.main-hero {
+  background-color: #2f303a;
+}
 .hero-title {
-  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* max-width: 650px; */
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
-/* section color */
 
-.section-title {
-  color: var(--title-text-color);
-}
-
-/* Кнопка */
+/* Button */
 
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+  color: var(--secondary-text-color);
+  background-color: var(--white-color);
   font-size: 16px;
-  padding: 10px 32px;
+  /* padding: 10px 32px;
   display: inline-block;
   border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; */
 }
-.button.primary {
-  color: var(--primary-white-color);
+.button.hero-button {
+  color: var(--white-color);
   background-color: var(--akcent-text-color);
 }
 .button:focus,
 .button:hover {
-  color: var(--title-text-color);
+  color: var(--secondary-text-color);
 }
-.logo-footer {
-  color: var(--primary-white-color);
+
+/* Main section */
+
+.hidden-title {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  margin: -1px;
+}
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--secondary-text-color);
+}
+.section-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Team */
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-list {
+  background-color: var(--white-color);
+  text-align: center;
+}
+.team-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.team-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.adress-title {
+  color: var(--white-color);
+}
+.footer-contacts .footer-item {
+  color: var(--main-text-color);
 }
