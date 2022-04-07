@@ -218,6 +218,7 @@ h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  text-align: left;
   letter-spacing: 0.06em;
 }
 .portfolio-item {
