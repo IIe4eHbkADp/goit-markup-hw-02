@@ -102,7 +102,7 @@ h2 {
 /* Button */
 
 .button {
-  font-family: 'Roboto';
+  font-family: inherit;
   color: var(--secondary-text-color);
   background-color: var(--white-color);
   font-size: 16px;
@@ -193,7 +193,7 @@ h2 {
 /* Porfolio filter button */
 
 .filter {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
