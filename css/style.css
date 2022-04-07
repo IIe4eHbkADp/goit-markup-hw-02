@@ -187,7 +187,7 @@ h2 {
   background-color: #f5f4fa;
 }
 
-.filter:hover {
+.filter:hover .filter:focus {
   color: var(--white-color);
   background-color: var(--akcent-text-color);
 }
