@@ -1,7 +1,7 @@
 :root {
   --main-text-color: #757575;
   --secondary-text-color: #212121;
-  --akcent-text-color: #2196f3;
+  --accent-text-color: #2196f3;
   --white-color: #ffffff;
 }
 
@@ -51,7 +51,7 @@ h2 {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--akcent-text-color);
+  color: var(--accent-text-color);
 }
 .logo {
   color: #000000;
@@ -64,7 +64,7 @@ h2 {
 }
 .header-list.header-link:focus,
 .header-link:hover {
-  color: var(--akcent-text-color);
+  color: var(--accent-text-color);
 }
 
 /* Contacts */
@@ -81,7 +81,7 @@ h2 {
 }
 .header-contacts.contacts-item:focus,
 .contacts-item:hover {
-  color: var(--akcent-text-color);
+  color: var(--accent-text-color);
 }
 
 /* Hero */
@@ -118,7 +118,7 @@ h2 {
 }
 .button.hero-button {
   color: var(--white-color);
-  background-color: var(--akcent-text-color);
+  background-color: var(--accent-text-color);
 }
 .button:focus,
 .button:hover {
@@ -211,7 +211,7 @@ h2 {
 
 .filter:hover .filter:focus {
   color: var(--white-color);
-  background-color: var(--akcent-text-color);
+  background-color: var(--accent-text-color);
 }
 /* Portfolio */
 
