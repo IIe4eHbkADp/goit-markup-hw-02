@@ -102,6 +102,7 @@ h2 {
 /* Button */
 
 .button {
+  font-family: 'Roboto';
   color: var(--secondary-text-color);
   background-color: var(--white-color);
   font-size: 16px;
@@ -175,6 +176,8 @@ h2 {
 /* Footer */
 
 .footer {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   background-color: #2f303a;
 }
 .footer-logo {
@@ -190,6 +193,7 @@ h2 {
 /* Porfolio filter button */
 
 .filter {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
