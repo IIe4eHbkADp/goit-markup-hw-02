@@ -182,7 +182,6 @@ body {
 /*----------------------------------- Footer----------------------------- */
 
 .footer {
-  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: var(--bgc-second-color);
@@ -196,7 +195,9 @@ body {
 .footer-contacts .footer-item {
   color: var(--main-text-color);
 }
-
+address {
+  font-style: normal;
+}
 /*-------------------------- Porfolio filter button------------------------ */
 
 .filter {
