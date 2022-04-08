@@ -6,6 +6,7 @@
   --border-main-color: #ececec;
   --bgc-second-color: #2f303a;
   --color-section: #f5f4fa;
+  --logo-color: #000000;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
   margin-right: auto;
 }
 
-/* Header */
+/*------------------------------- Header------------------------- */
 
 .header {
   border-bottom: 1px solid var(--border-main-color);
@@ -56,7 +57,7 @@ body {
   color: var(--accent-text-color);
 }
 .logo {
-  color: #000000;
+  color: var(--logo-color);
 }
 .header-list {
   /* display: flex; */
@@ -68,8 +69,11 @@ body {
 .header-link:hover {
   color: var(--accent-text-color);
 }
+.header-navigation .header-link.current {
+  color: var(--accent-text-color);
+}
 
-/* Contacts */
+/*-------------------------- Contacts -----------------------*/
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -86,7 +90,7 @@ body {
   color: var(--accent-text-color);
 }
 
-/* Hero */
+/*------------------------- Hero--------------------- */
 
 .main-hero {
   background-color: var(--bgc-second-color);
@@ -124,10 +128,10 @@ body {
 }
 .button:focus,
 .button:hover {
-  color: var(--secondary-text-color);
+  background-color: #188ce8;
 }
 
-/* Main section */
+/* ---------------------------Main section---------------------------------- */
 
 .hidden-title {
   width: 1px;
@@ -150,7 +154,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Team */
+/*--------------------------- Team --------------------------*/
 
 .team {
   background-color: var(--color-section);
@@ -175,7 +179,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Footer */
+/*----------------------------------- Footer----------------------------- */
 
 .footer {
   font-style: normal;
@@ -193,7 +197,7 @@ body {
   color: var(--main-text-color);
 }
 
-/* Porfolio filter button */
+/*-------------------------- Porfolio filter button------------------------ */
 
 .filter {
   font-family: inherit;
@@ -216,7 +220,7 @@ body {
   color: var(--main-color);
   background-color: var(--accent-text-color);
 }
-/* Portfolio */
+/*----------------------------------- Portfolio------------------------------- */
 
 .portfolio-list {
   border: 1px solid var(--border-main-color);
